@@ -103,8 +103,6 @@ $(function() {
         document.body.style.setProperty( "--color2", color );
     });
     
-    // hack the preview for codepenzies
-    
     setTimeout(function(){
         $doc.trigger("contextmenu");
         $context
